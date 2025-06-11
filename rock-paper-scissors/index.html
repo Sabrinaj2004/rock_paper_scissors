@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors ✊✋✌️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Rock ✊ Paper ✋ Scissors ✌️</h1>
+
+    <div class="choices">
+      <div class="choice" onclick="play('rock')">
+        <img src="https://img.icons8.com/color/96/hand-rock.png" alt="Rock" />
+        <span>Rock</span>
+      </div>
+      <div class="choice" onclick="play('paper')">
+        <img src="https://img.icons8.com/color/96/hand.png" alt="Paper" />
+        <span>Paper</span>
+      </div>
+      <div class="choice" onclick="play('scissors')">
+        <img src="https://img.icons8.com/color/96/hand-scissors.png" alt="Scissors" />
+        <span>Scissors</span>
+      </div>
+    </div>
+
+    <div class="arena">
+      <div class="player">
+        <h3>You</h3>
+        <div class="hand" id="user-hand">
+          <img src="https://img.icons8.com/color/96/hand-rock.png" />
+        </div>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="player">
+        <h3>Computer</h3>
+        <div class="hand" id="computer-hand">
+          <img src="https://img.icons8.com/color/96/hand-rock.png" />
+        </div>
+      </div>
+    </div>
+
+    <div id="result" class="result">Make your move!</div>
+    <div id="score" class="score">Score: You 0 - 0 Computer</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
