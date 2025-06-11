@@ -5,7 +5,8 @@
 
 A fun and interactive Rock-Paper-Scissors game built using **HTML**, **CSS**, and **JavaScript**. You play against the computer — first to outsmart the other wins!
 
-![Game Screenshot](./screenshot.png)
+WON:
+![Game Screenshot](Screenshots/todolist.png)
 
 ---
 
@@ -37,7 +38,13 @@ A fun and interactive Rock-Paper-Scissors game built using **HTML**, **CSS**, an
 ## 📷 Screenshot
 
 
-![screenshot](https://imgur.com/your-image-link.png)
+DRAW:
+
+![screenshot](Screenshots/Draw.png)
+
+
+LOST:
+![screenshot](Screenshots/Lost.png)
 
 ---
 
